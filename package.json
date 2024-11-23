@@ -1,38 +1,40 @@
 {
-  "name": "rolematrix",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "rbac_tutorial",
+  "version": "1.0.0",
+  "description": "This is a Role Based Access Control application using Nodejs, Express, Passport Js, etc.\r You can use this application as the starting point for whatever project you are going to build which needs authentication and authorization.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "bcrypt": "^5.0.0",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.8.0",
+    "http-errors": "^1.8.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^5.11.7",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "shadcn": "^2.1.6"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^2.0.22",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
   }
 }

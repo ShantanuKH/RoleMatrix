@@ -1,0 +1,50 @@
+<%- include('layouts/header') %>
+
+<h1 class="table-title">Manage Users</h1>
+
+<table class="user-table">
+  <caption class="table-caption">Users List</caption>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Email</th>
+      <th>Role</th>
+      <th>Actions</th> <!-- Added Actions column -->
+    </tr>
+  </thead>
+  <tbody>
+    <% users.forEach(user => { %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><a href="/admin/user/<%= user.id %>" class="email-link"><%= user.email %></a></td>
+      <td>
+        <form action="/admin/update-role" method="post" class="manage-user-form">
+          <input type="hidden" name="id" value="<%= user.id %>" />
+          <select name="role" class="role-select">
+            <option value="ADMIN" <%= user.role === 'ADMIN' ? 'selected' : '' %>>Admin</option>
+            <option value="MODERATOR" <%= user.role === 'MODERATOR' ? 'selected' : '' %>>Moderator</option>
+            <option value="CLIENT" <%= user.role === 'CLIENT' ? 'selected' : '' %>>Client</option>
+          </select>
+        </form>
+      </td>
+      <td>
+        <!-- Action Buttons are placed inside a div for better alignment -->
+        <div class="action-buttons">
+          <!-- Form for Update -->
+          <form action="/admin/update-role" method="post" class="manage-user-form" style="display:inline;">
+            <input type="hidden" name="id" value="<%= user.id %>" />
+            <button type="submit" class="update-btn">Update</button>
+          </form>
+          <!-- Form for Delete -->
+          <form action="/admin/delete-user/<%= user.id %>" method="POST" class="delete-user-form" style="display:inline;">
+            <input type="hidden" name="_method" value="DELETE" />
+            <button type="submit" class="delete-btn">Delete</button>
+          </form>
+        </div>
+      </td>
+    </tr>
+    <% }) %>
+  </tbody>
+</table>
+
+<%- include('layouts/footer') %>

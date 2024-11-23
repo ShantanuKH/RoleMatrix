@@ -1,0 +1,34 @@
+<%- include('./layouts/header') %>
+
+<h1>
+  <span class="goback" onclick="window.history.back()">←</span> Profile
+</h1>
+
+<div class="profile">
+  <div class="profile-header">
+    <h2 class="profile-title">Profile Information</h2>
+    <p class="profile-subtitle">Here is your account information</p>
+  </div>
+
+  <div class="profile-content">
+    <div class="profile-item profile-box">
+      <div class="profile-image-container">
+        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="User Photo" class="profile-image" />
+      </div>
+      <div class="profile-id-container">
+        <p class="profile-label">ID:</p>
+        <p class="profile-value"><%= person.id %></p>
+      </div>
+    </div>
+    <div class="profile-item">
+      <p class="profile-label">Email:</p>
+      <p class="profile-value"><%= person.email %></p>
+    </div>
+    <div class="profile-item">
+      <p class="profile-label">Role:</p>
+      <p class="profile-value"><%= person.role %></p>
+    </div>
+  </div>
+</div>
+
+<%- include('./layouts/footer') %>
