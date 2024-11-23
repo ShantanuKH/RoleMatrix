@@ -1,66 +1,57 @@
-# Role Based Access Control (...still in dev mode...)
+# RoleMatrix - RBAC Project 🛡️🔐
 
-This is a Role Based Access Control application using Nodejs, Express, Passport Js, etc.
-You can use this application as the starting point for whatever project you are going to build which needs authentication and authorization.
+## Overview 📚
+This project is a full-stack implementation of Role-Based Access Control (RBAC) using Express.js, Passport.js, EJS, and MongoDB. It supports user authentication, role-based authorization, and route protection for different user roles like `Admin`, `Moderator`, and `Client`. The system ensures secure access and provides role-specific functionality. It also includes persistent session handling, server-side input validation, and dynamic user feedback through flash messages.
 
-For authentication we have only Email & Password option but other authentication options using OAuth/OAuth2.0 like Google, Facebook, Apple, GitHub, etc, can be easily incorporated.
+## Key Features 🌟
 
-The application is based on the **MVC pattern** i.e. Model View Controller.
+| Feature                | Description                                                      |
+|------------------------|------------------------------------------------------------------|
+| User Authentication 🔑  | Implemented using Passport.js with local strategy (email and password). |
+| Role-Based Authorization ⚖️ | Protects routes for `Admin`, `Moderator`, and `Client` roles.    |
+| Persistent Login 🔄      | Session data stored in MongoDB using connect-mongo.              |
+| Dynamic Views 🖥️        | Uses EJS templating for server-side rendering of dynamic pages.  |
+| Input Validation ✅      | Ensures secure and sanitized user input.                         |
+| Flash Messages 💬        | Displays success or error messages during user interaction.      |
+| Error Handling 🚫        | Provides custom error pages for HTTP errors like 404 Not Found. |
 
-**Mongoose** is used as an ORM for MongoDB for storing Users in Database.
+## Technologies Used ⚙️
 
-**Passport JS** is used for local(email, password) authentication.
+| Technology   | Purpose                                                                      |
+|---------------|------------------------------------------------------------------------------|
+| Express.js    | Backend web framework for building the server, routing, and middleware integration. |
+| EJS           | Templating engine for generating dynamic HTML from the server.              |
+| Passport.js   | Middleware for handling user authentication and managing sessions securely.|
+| MongoDB       | Database for storing user data and session information.                     |
+| Mongoose      | ODM for interacting with MongoDB using models and schemas.                  |
+| CSS           | For styling and designing the user interface (optional: Tailwind, Bootstrap, or other frameworks). |
 
-The application is _almost_ **production ready**.
+## Screenshots 📸
 
----
+### Admin Page
+![Admin Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/admin.png?token=GHSAT0AAAAAACY7XNLXJMSIXFSWPQIA25BIZ2CDHFQ)
 
-## To start setting up the project
+### Home Page
+![Home Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/home.png?token=GHSAT0AAAAAACY7XNLXPFLNJE6A5SY3BLREZ2CDHOA)
 
-Step 1: Clone the repo
+### Login Page
+![Login Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/login.png?token=GHSAT0AAAAAACY7XNLWWHDJVAFFB3ZRRY7KZ2CDHQQ)
 
-```bash
-git clone https://github.com/trulymittal/role-based-access-control
-```
+### Manage User Page
+![Manage User Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/manageUser.png?token=GHSAT0AAAAAACY7XNLWUWXG4AVQZYNZOUUQZ2CDHSQ)
 
-Step 2: cd into the cloned repo and run:
+### Profile Page
+![Profile Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/profile.png?token=GHSAT0AAAAAACY7XNLXJYEQXOTBS3ASRVLIZ2CDHVQ)
 
-```bash
-npm install
-```
+### Register Page
+![Register Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/register.png?token=GHSAT0AAAAAACY7XNLX2MO556UQ6WEKICZ2Z2CDH2A7)
 
-Step 3: Put your credentials in the .env file.
+### Admin Profile
+![Admin Profile Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/adminProfile.png?token=GHSAT0AAAAAACY7XNLX6EOWXLSMENZMXXKKZ2CDKIQ)
 
-```bash
-PORT=3000
-MONGODB_URI=YOUR_MONGODB_URI(example: mongodb://localhost:27017)
-DB_NAME=YOUR_DB_NAME
-```
+## Author ✍️
 
-Step 4: Install MongoDB (Linux Ubuntu)
-
-See <https://docs.mongodb.com/manual/installation/> for more infos
-
-Step 5: Run Mongo daemon
-
-```bash
-sudo service mongod start
-```
-
-Step 6: Start the app by
-
-```bash
-npm start
-```
-
-## Author
-
-- [**Truly Mittal**](https://trulymittal.com)
-
-## Contribute
-
-You can fork this repo and send me a PR.
-
-## License
-
-This project is licensed under the MIT License.
+**Name:** Shantanu Khadse  
+**GitHub:** [ShantanuKH](https://github.com/ShantanuKH)  
+**Email:** [shantanukhadse784@gmail.com](mailto:shantanukhadse784@gmail.com)  
+**LinkedIn:** [shantanukhadse](https://www.linkedin.com/in/shantanukhadse-a62585230/)
