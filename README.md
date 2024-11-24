@@ -28,26 +28,39 @@ This project is a full-stack implementation of Role-Based Access Control (RBAC) 
 
 ## Screenshots 📸
 
-### Admin Page
-![Admin Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/admin.png?token=GHSAT0AAAAAACY7XNLXJMSIXFSWPQIA25BIZ2CDHFQ)
+<table border="1">
+<tr>
+<th>Page</th>
+<th>Screenshot</th>
+<th>Page</th>
+<th>Screenshot</th>
+</tr>
+<tr>
+<td><strong>Admin Page</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/admin.png?token=GHSAT0AAAAAACY7XNLXJMSIXFSWPQIA25BIZ2CDHFQ" width="350"></td>
+<td><strong>Home Page</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/home.png?token=GHSAT0AAAAAACY7XNLXJPFLNJE6A5SY3BLREZ2CDHOA" width="350"></td>
+</tr>
+<tr>
+<td><strong>Login Page</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/login.png?token=GHSAT0AAAAAACY7XNLWWHDJVAFFB3ZRRY7KZ2CDHQQ" width="350"></td>
+<td><strong>Manage User Page</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/manageUser.png?token=GHSAT0AAAAAACY7XNLWUWXG4AVQZYNZOUUQZ2CDHSQ" width="350"></td>
+</tr>
+<tr>
+<td><strong>Profile Page</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/profile.png?token=GHSAT0AAAAAACY7XNLXJYEQXOTBS3ASRVLIZ2CDHVQ" width="350"></td>
+<td><strong>Register Page</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/register.png?token=GHSAT0AAAAAACY7XNLX2MO556UQ6WEKICZ2Z2CDH2A7" width="350"></td>
+</tr>
+<tr>
+<td><strong>Admin Profile</strong></td>
+<td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/adminProfile.png?token=GHSAT0AAAAAACY7XNLX6EOWXLSMENZMXXKKZ2CDKIQ" width="350"></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
-### Home Page
-![Home Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/home.png?token=GHSAT0AAAAAACY7XNLXPFLNJE6A5SY3BLREZ2CDHOA)
-
-### Login Page
-![Login Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/login.png?token=GHSAT0AAAAAACY7XNLWWHDJVAFFB3ZRRY7KZ2CDHQQ)
-
-### Manage User Page
-![Manage User Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/manageUser.png?token=GHSAT0AAAAAACY7XNLWUWXG4AVQZYNZOUUQZ2CDHSQ)
-
-### Profile Page
-![Profile Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/profile.png?token=GHSAT0AAAAAACY7XNLXJYEQXOTBS3ASRVLIZ2CDHVQ)
-
-### Register Page
-![Register Page Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/register.png?token=GHSAT0AAAAAACY7XNLX2MO556UQ6WEKICZ2Z2CDH2A7)
-
-### Admin Profile
-![Admin Profile Screenshot](https://raw.githubusercontent.com/ShantanuKH/rolematrix/refs/heads/main/screenshots/adminProfile.png?token=GHSAT0AAAAAACY7XNLX6EOWXLSMENZMXXKKZ2CDKIQ)
 
 ## Author ✍️
 
