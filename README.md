@@ -61,6 +61,11 @@ This project is a full-stack implementation of Role-Based Access Control (RBAC) 
 </tr>
 </table>
 
+## Admin Account Note 🧑‍💻
+
+Currently, I am the `Admin` of this RoleMatrix system, and my admin account is associated with the email **khadseshsantanu02@gmail.com**. As an admin, I have the ability to manage users and assign roles. 
+
+If desired, we can also create additional admin accounts to manage the system more effectively.
 
 ## Author ✍️
 
