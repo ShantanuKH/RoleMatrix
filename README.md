@@ -60,7 +60,7 @@ RoleMatrix is a full-stack implementation of **Role-Based Access Control (RBAC)*
 <td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/main/screenshots/register.png" width="350"></td>
 </tr>
 <tr>
-<td><strong>Admin Profile</strong></td>
+<td><strong>Admin Profile Page</strong></td>
 <td><img src="https://raw.githubusercontent.com/ShantanuKH/rolematrix/main/screenshots/adminProfile.png" width="350"></td>
 <td></td>
 <td></td>
